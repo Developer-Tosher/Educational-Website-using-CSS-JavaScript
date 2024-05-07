@@ -11,7 +11,7 @@
   min-height: 100vh;
   width: 100%;
   /* background-image: url(./); */
-  background-image:url(./images/banner.png);
+  background-image:url(./images/banner.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -53,6 +53,10 @@ nav img {
 }
 .nav-links ul li:hover::after {
   width: 100%;
+}
+.bg-blue{
+  background-color: #89e089;
+  color: rgb(230, 138, 0);
 }
 .text-box {
   position: absolute;
@@ -329,3 +333,22 @@ footer */
   color: #f44336;
 }
 
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.sub-header h1 {
+  margin-top: 50px;
+}
+.about-us img {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
