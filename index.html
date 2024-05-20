@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img class="logo" src="./images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1 class="bg-blue opacity-75">University You Desire</h1>
+        <p>
+          Making Website is now one of the easiest thing in the world.<br> You just
+          need to learn HTML, CSS, Javascript and you are good to go.
+        </p>
+        <a href="#" class="hero-btn">Visit Us to Know More</a>
+      </div>
+    </section>
+
+    <!-- course -->
+
+    <section class="course">
+      <h1 class="bg-blue">Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <a style="text-decoration: none;" href="degree/degree_details.html">
+            <h3>Degree</h3>
+            <p style="text-align: justify;">
+              A Bachelor’s, or Honours, degree is the most common type of undergraduate degree. It’s what most employers mean when they’re looking for an ‘undergraduate’ or ‘first’ degree on a job posting.
+    
+              You know you’re looking at a Bachelor’s degree when you see titles such as Bachelor of Arts – BA (Hons), Bachelor of Science – BSc (Hons), Bachelor of Engineering – BEng (Hons) and Bachelor of Laws – LLB (Hons).
+    
+              The (Hons) bit stands for Honours. This generally means you study for 3 years, or 4 if the course is offered with an optional sandwich-placement year. You study 360 credits, including a major project or dissertation in your final year.
+            </p>
+          </a>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p style="text-align: justify;">
+            Postgraduate study refers to an advanced level of study, beyond the level of a Bachelor degree.
+            Postgraduate study is usually undertaken to gain more comprehensive knowledge within a particular
+            area of a discipline, to develop new interests or to start on a new career path.
+          </p>
+        </div>
+      </div>
+    </section>
+<!-- campus -->
+    <section class="campus">
+      <h1 class="bg-blue">Our Global Campus</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img style="height: 230px;" src="./images/london.png" alt="">
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img style="height: 230px;" src="./images/newyork.png" alt="">
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img style="height: 230px;" src="./images/australia.jpg" alt="">
+          <div class="layer">
+            <h3>Australia</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- Facilities -->
+
+    <section class="facilities">
+      <h1 class="bg-blue">Our Facilities</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img style="height: 295px;" src="./images/library.jpg" alt="">
+          <h3>Library</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit delectus, voluptate fuga blanditiis saepe mollitia odio accusantium nulla reprehenderit vero?</p>
+        </div>
+        <div class="facilities-col">
+          <img style="height: 295px;" src="./images/bolyball.jpg" alt="">
+          <h3>Largest Play Ground</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit delectus, voluptate fuga blanditiis saepe mollitia odio accusantium nulla reprehenderit vero?</p>
+        </div>
+        <div class="facilities-col">
+          <img style="height: 295px;" src="./images/canteen.jpg" alt="">
+          <h3>Healthy Food</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit delectus, voluptate fuga blanditiis saepe mollitia odio accusantium nulla reprehenderit vero?</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!----- Call to action ------>
+
+    <section class="cta">
+      <h1>Apply for Online Admission</h1>
+      <a href="" class="hero-btn">APPLY for ADMISSION</a>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--------- footer --------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur error asperiores vero vel incidunt sit!</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
